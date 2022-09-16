@@ -1,0 +1,158 @@
+* {
+    /*Resets all elements t0 standard parameters*/
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /*Sets the background color for the body of the page.*/
+    background-color: #d9dcd6;
+}
+
+.header {
+    /*Sets the padding and font. As well as the background and text color for the heading.*/
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    /*displays a inline block element, as well as the font size for the h1 in the header.*/
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    /*Sets the color of the h1 in the header.*/
+    color: #d9dcd6;
+}
+
+.header nav {
+    /*Sets the padding and margin for the navagation bar in the heading. 
+    As well as the font, font size, and the direction the element should float*/
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    /*Specifies the type of list item marker for the navagation.*/
+    list-style-type: none;
+}
+
+.header nav ul li {
+    /*Specifies the type of list item marker for the navagation.*/
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    /*Sets the color of the h1 in the header.*/
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    /*Sets the font size of paragraph text*/
+    font-size: 16px;
+}
+
+.hero {
+    /*Sets the dimensions of the hero image at the top of the page.*/
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./assets/images/rahsanpic1.JPG");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    /*Sets the direction the element will float as well as the margins.*/
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    /*Sets the direction the element will float as well as the margins.*/
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    /*Displays an inline block element. As well as the width and margin for the main content.*/
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.sideboxes {
+    /*Sets the margin, padding, font, width, height, and background color of the "benefit" class content.
+    Also controls the flow next to floated elements as well as the direction the element will float*/
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.sidebox {
+    /*Sets the text color and margin of the "benefit" class content.*/
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.sidebox h3 {
+    /*Sets the margin and aligns the text of the "benefit" class content.*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sidebox img {
+    /*Sets the margin and displays a box with a max width of 150px for the "benefit" class icons.*/
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.bodycontent {
+    /*Sets the margin, padding, height, font, background and text color for the "service" class content*/
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.bodycontent img {
+    /*Sets the max height for the images in the "service" class content.*/
+    max-height: 200px;
+}
+
+.bodycontent h2 {
+    /*Sets the font size and margin of the h2 in the "service" class content)*/
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    /*Sets the padding, font, and how the text in aligned in the footer. 
+    Also controls the flow next to floated elements*/
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    /*Sets the font size of the footer h2.*/
+    font-size: 20px;
+}
